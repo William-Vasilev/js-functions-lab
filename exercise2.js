@@ -6,7 +6,7 @@ fetch("https://jsonplaceholder.typicode.com/todos")
       console.log(`${todo.title} - ${todo.completed}`)
     })
 
-    const todotitles = todos.map(todos => todos.title);
+    const todotitles = todos.map(todo => todo.title);
     console.log(todotitles);
 
   })
